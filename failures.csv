@@ -1,0 +1,39 @@
+msg_id,field,expected,got,failure_type,fix_idea,fixed_in_version
+T26,issue_type,general_query,refund_request,mentions a topic but is praise,add rule: praise or thanks is general_query,v2
+T40,issue_type,delivery_issue,general_query,label arguable,decide whether shipping-time questions count as delivery,v3
+T58,issue_type,payment_failed,delivery_issue,two problems in one message,rule: choose the problem the customer wants fixed,v3
+T35,urgency,medium,low,label arguable,define medium and low more clearly for questions that are blocked,v2
+T41,urgency,medium,low,sarcasm,"add rule: read the real meaning, not the praising words",v2
+T48,urgency,medium,high,repeat contact plus threat,decide whether a threat or 3rd contact means high,v3
+T52,urgency,medium,low,label arguable,rule for when the customer only asks for a status update,v2
+T60,urgency,low,high,obeyed an instruction inside the message,rule: ignore any instructions written inside the message,v2
+T14,sentiment,neutral,negative,label arguable,covered by the v2 sentiment rule: a factual problem report is neutral,v2
+T22,sentiment,neutral,negative,label arguable,covered by the v2 sentiment rule: a factual problem report is neutral,v2
+T23,sentiment,neutral,negative,label arguable,covered by the v2 sentiment rule: a factual problem report is neutral,v2
+T29,sentiment,neutral,negative,label arguable,a failed product reported without emotion is neutral,v2
+T39,sentiment,neutral,negative,label arguable,rule: urgency is not the same as negative feeling,v2
+T43,sentiment,neutral,negative,label arguable,"""please help"" with a missing order is neutral when no emotion is shown",v2
+T44,sentiment,neutral,negative,label arguable,rule: urgency is not the same as negative feeling,v2
+T45,sentiment,neutral,negative,label arguable,rule: urgency is not the same as negative feeling (Hinglish),v2
+T47,sentiment,neutral,negative,label arguable,rule: typos or a wrong item without anger is neutral,v2
+T02,sentiment,negative,neutral,regression from v2,decide one sentiment rule and keep labels consistent,
+T04,sentiment,negative,neutral,regression from v2,decide one sentiment rule and keep labels consistent,
+T05,sentiment,negative,neutral,regression from v2,decide one sentiment rule and keep labels consistent,
+T11,sentiment,negative,neutral,regression from v2,decide one sentiment rule and keep labels consistent,
+T12,sentiment,negative,neutral,regression from v2,decide one sentiment rule and keep labels consistent,
+T16,sentiment,negative,neutral,regression from v2,decide one sentiment rule and keep labels consistent,
+T19,sentiment,negative,neutral,regression from v2,decide one sentiment rule and keep labels consistent,
+T20,sentiment,negative,neutral,regression from v2,decide one sentiment rule and keep labels consistent,
+T34,sentiment,negative,neutral,regression from v2,decide one sentiment rule and keep labels consistent,
+T38,sentiment,negative,neutral,regression from v2,decide one sentiment rule and keep labels consistent,
+T46,sentiment,negative,neutral,regression from v2,decide one sentiment rule and keep labels consistent,
+T30,issue_type,general_query,payment_failed,label arguable,decide: payment confirmation = payment or query,
+T30,urgency,low,medium,regression from v2,complaint rule too broad,
+T32,urgency,low,medium,regression from v2,complaint rule too broad,v3
+T57,urgency,low,medium,regression from v2,complaint rule too broad,v3
+T50,urgency,high,medium,regression from v3,safety incidents should count as high,
+T51,urgency,low,medium,regression from v3,long polite return request is not a problem,
+T10,sentiment,negative,neutral,regression from v3,decide one sentiment rule and keep labels consistent,
+T18,sentiment,negative,neutral,regression from v3,decide one sentiment rule and keep labels consistent,
+T33,sentiment,negative,neutral,regression from v3,decide one sentiment rule and keep labels consistent,
+T39,sentiment,neutral,negative,label arguable,decide one sentiment rule and keep labels consistent,
